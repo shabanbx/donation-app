@@ -25,7 +25,7 @@
         x-transition:enter-start="-translate-x-full" x-transition:enter-end="translate-x-0"
         x-transition:leave="transition transform duration-300" x-transition:leave-start="translate-x-0"
         x-transition:leave-end="-translate-x-full" @click.away="open = false"
-        class="fixed inset-y-0 left-0 w-[35%] bg-gray-100 shadow-lg">
+        class="fixed inset-y-0 left-0 w-full md:w-[45%]  md:w-[35%] bg-gray-100 shadow-lg">
         <div class="p-10 flex flex-col h-full w-full justify-center items-center">
             <!-- Close button -->
             <div class="text-primary w-full flex justify-between">
